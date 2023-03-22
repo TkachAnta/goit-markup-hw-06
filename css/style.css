@@ -384,6 +384,10 @@ body {
     align-items: baseline;
 }
 
+.block-social {
+    margin-right: 80px;
+}
+
 .block-logo {
     margin-right: 120px;
 }
@@ -423,6 +427,65 @@ body {
     background-color: var(--color-green);
 }
 
+.footer-form-title {
+    font-weight: 500;
+    font-style: 16px;
+    line-height: 1.5;
+    color: var(--primary-color-white);
+    margin-bottom: 16px;
+}
+
+.footer-form-input {
+    min-width: 264px;
+    min-height: 40px;
+    margin-right: 24px;
+    padding-left: 16px;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: var(--color-navy-blue);
+}
+
+.footer-form-input::placeholder {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: var(--primary-color-white);
+}
+
+.form-block {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-form-submit {
+    align-items: center;
+    min-width: 165px;
+    min-height: 40px;
+    background: var(--color-iris);
+    color: var(--primary-color-white);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms var(--transition);
+}
+
+.footer-form-submit:hover,
+.footer-form-submit:focus {
+    background-color: var(--color-ocean);
+}
+
+.footer-form-submit-icon {
+    fill: var(--primary-color-white);
+    margin-left: 16px;
+}
 /*==========================MODAL WINDOW========================*/
 
 .backdrop {
@@ -442,7 +505,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 408px;
-    height: 576px;
+    height: 584px;
     padding: 72px 24px 24px 24px;
     background-color: var(--color-dairy);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -495,7 +558,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    margin-bottom: 34px;
+    margin-bottom: 16px;
 }
 
 .modal-form-input-desc {
@@ -512,6 +575,7 @@ body {
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    padding-left: 38px;
     transition: border 250ms var(--transition) border-radius 250ms var(--transition);
 }
 
@@ -549,6 +613,7 @@ body {
     position: relative;
     width: 100%;
     height: 120px;
+    padding-left: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     resize: none;
@@ -579,6 +644,7 @@ body {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     cursor: pointer;
+    margin-right: 4px;
 }
 
 .modal-form-check:checked +
@@ -601,6 +667,29 @@ body {
     display: flex;
     align-items: center;
     font-size: 12px;
+    margin-bottom: 24px;
+    transition: transition: border 250ms var(--transition) border-radius 250ms var(--transition);
+}
+
+.modal-form-submit {
+    align-self: center;
+    min-width: 169px;
+    background: var(--color-iris);
+    color: var(--primary-color-white);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms var(--transition);
+}
+
+.modal-form-submit:hover,
+.modal-form-submit:focus {
+    background-color: var(--color-ocean);
 }
 /*==========================MODAL WINDOW========================*/
 
