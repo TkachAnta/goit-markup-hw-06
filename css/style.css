@@ -651,7 +651,7 @@ body {
     background: var(--color-ocean);
     border: 1px solid #404BBF;
     border-radius: 2px;
-    background-image: url(/images/for-svg-sprite/vector.svg);
+    background-image: url(/images/vector.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
