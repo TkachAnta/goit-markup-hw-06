@@ -649,16 +649,16 @@ body {
 .modal-form-check:checked +
 .modal-form-check-desc::before {
     background: var(--color-ocean);
-    border: 1px solid #404BBF;
+    border: 1px solid var(--color-ocean);
     border-radius: 2px;
-    background-image: url(/images/vector.svg);
+    background-image: url(../images/vector.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .modal-form-check:focus +
 .modal-form-check-desc::before {
-    border: 1px solid #404BBF;
+    border: 1px solid var(--color-ocean);
     border-radius: 2px;
 }
 
